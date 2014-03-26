@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = 'http://www.w3.org/ns/widgets'
+        xmlns:gap = 'http://phonegap.com/ns/1.0'
+        id        = "com.avisosfce.test.fce"
+        version   = "0.2.1">
+    <name>Avisos FCE test</name>
+    <description>Avisos FCE test</description>
+	<access origin="*" />
+    <author href="http://federicoemiliani.com" email="femiliani@gmail.com">Federico Emiliani</author>
+    <feature name="http://api.phonegap.com/1.0/device" />
+	<feature name="http://api.phonegap.com/1.0/network"/>
+    <preference name="phonegap-version" value="2.9.0" />
+    <preference name="orientation"      value="default" />
+    <preference name="target-device"    value="android" />
+    <preference name="fullscreen"       value="false" />
+    <icon src="res/icon/android/icon-64.png" />
+    <icon src="res/icon/android/icon-32.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="res/icon/android/icon-64.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="res/icon/android/icon-72.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="res/icon/android/icon-72.png"  gap:platform="android"    gap:density="xhdpi" />
+    <gap:splash src="res/screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="res/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="res/screen/android/screen-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi" />
+	<gap:plugin name="com.phonegap.plugins.pushplugin" version="1.3.7" />
+</widget>
